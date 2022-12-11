@@ -1,0 +1,18 @@
+version: '3.9'
+
+volumes:
+  minio-data:
+    name: 'minio-data'
+
+services:
+  minio:
+    image: minio/minio:${IMG_TAG}
+    command: ["minio", "server", "--console-address", ":${EXPOSE_PORT}", "/data"]
+    restart: "no"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    ports:
+      - ${EXPOSE_PORT}:${EXPOSE_PORT}
+    volumes:
+      - minio-data:/data
