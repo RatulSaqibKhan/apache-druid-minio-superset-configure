@@ -9,3 +9,17 @@ MinIO offers high-performance, S3 compatible object storage. Native to Kubernete
 ## Install MinIO using Docker
 ![MinIO GUI](./images/minio.png)
  [MinIO Installation](./minio/README.md)
+
+ ## What is Apache Druid
+Apache Druid is a real-time database to power modern analytics applications.
+### Overviews
+  - Build fast, modern data analytics applications
+  - Easy integration with your existing data pipelines
+  - Fast, consistent queries at high concurrency
+  - Broad applicability
+  - Deploy in public, private, and hybrid clouds
+
+[More Info](https://druid.apache.org/)
+## Install Apache Druid using Docker
+![Apache Druid GUI](./images/apache_druid.png)
+[Apache Druid Installation](./apache_druid/README.md)
