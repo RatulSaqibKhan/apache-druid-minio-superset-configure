@@ -23,3 +23,11 @@ Apache Druid is a real-time database to power modern analytics applications.
 ## Install Apache Druid using Docker
 ![Apache Druid GUI](./images/apache_druid.png)
 [Apache Druid Installation](./apache_druid/README.md)
+
+## What is Superset UI
+Superset is fast, lightweight, intuitive, and loaded with options that make it easy for users of all skill sets to explore and visualize their data, from simple line charts to highly detailed geospatial charts.
+
+[More Info](https://superset.apache.org/)
+## Superset UI Installation with docker
+![Superset UI](./images/superset-ui.png)
+[Superset UI Installation](./supersetui/README.md)
